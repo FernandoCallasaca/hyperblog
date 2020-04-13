@@ -6,6 +6,7 @@ body
     font-size: 16px;
     margin: 0;
     padding: 0;
+    background-color: #96AAA4;
 }
 #container
 {
@@ -23,16 +24,23 @@ body
 #cabecera #tagline{
     font-weight: normal;
     font-size: 0.8em;
-    padding: 0 0 0 1em;
+}
+#cabecera img{
+    width: 50px;
+    height: 50px;
 }
 #cabecera{
-    background: #33A;
+    background: #BB90EC;
     box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.5);
     font-weight: bold;
     color: white;
     margin: 0;
     padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 #post{
     padding: 1em;
+    background-color: white;
 }
