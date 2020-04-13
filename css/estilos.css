@@ -36,3 +36,9 @@ body
 #post{
     padding: 1em;
 }
+#footer{
+    background-color: white;
+    text-align: center;
+    background-color: teal;
+    color: white;
+}
